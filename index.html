@@ -1,10 +1,12 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Elpira — Small sparks. Brighter days.</title>
-  <meta name="description" content="Elpira is a gentle daily affirmation, journaling, breathing, and reminder app designed to bring small sparks of calm into everyday life.">
+  <meta name="description"
+    content="Elpira is a gentle daily affirmation, journaling, breathing, and reminder app designed to bring small sparks of calm into everyday life.">
   <style>
     :root {
       --bg: #F6F1EB;
@@ -20,9 +22,13 @@
       --radius: 24px;
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
       margin: 0;
@@ -72,11 +78,12 @@
     .brand img {
       width: 42px;
       height: 42px;
-      object-fit: contain;
+      object-fit: cover;
       border-radius: 14px;
-      background: #f7f1ea;
-      padding: 4px;
+      background: transparent;
+      padding: 0;
       box-shadow: 0 4px 16px var(--shadow);
+      mix-blend-mode: multiply;
     }
 
     .brand-name {
@@ -179,13 +186,13 @@
     }
 
     .button-secondary {
-      background: rgba(255,255,255,0.72);
+      background: rgba(255, 255, 255, 0.72);
       border-color: var(--line);
       color: var(--text);
     }
 
     .hero-card {
-      background: linear-gradient(180deg, rgba(255,255,255,0.92), rgba(252,248,243,0.95));
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(252, 248, 243, 0.95));
       border: 1px solid rgba(231, 222, 211, 0.9);
       border-radius: 32px;
       padding: 28px;
@@ -235,7 +242,7 @@
     }
 
     .card {
-      background: rgba(255,255,255,0.82);
+      background: rgba(255, 255, 255, 0.82);
       border: 1px solid var(--line);
       border-radius: var(--radius);
       padding: 22px;
@@ -263,7 +270,7 @@
       stroke-width: 2;
       stroke-linecap: round;
       stroke-linejoin: round;
-  }
+    }
 
     .card h3 {
       margin: 0 0 8px;
@@ -285,7 +292,7 @@
     }
 
     .link-card {
-      background: rgba(255,255,255,0.88);
+      background: rgba(255, 255, 255, 0.88);
       border: 1px solid var(--line);
       border-radius: var(--radius);
       padding: 22px;
@@ -325,7 +332,7 @@
     }
 
     .footer-box {
-      background: rgba(255,255,255,0.76);
+      background: rgba(255, 255, 255, 0.76);
       border: 1px solid var(--line);
       border-radius: 28px;
       padding: 24px;
@@ -347,6 +354,7 @@
     }
 
     @media (max-width: 980px) {
+
       .hero-grid,
       .cards,
       .links-grid {
@@ -381,6 +389,7 @@
     }
   </style>
 </head>
+
 <body>
   <header class="topbar">
     <div class="container nav">
@@ -408,7 +417,8 @@
           <div class="eyebrow">✨ Gentle wellbeing, one moment at a time</div>
           <h1>Find a little calm in your everyday rhythm.</h1>
           <p class="lead">
-            Elpira is a gentle daily affirmation, journaling, breathing, and reminder app designed to bring small sparks of calm, reflection, and steadiness into everyday life.
+            Elpira is a gentle daily affirmation, journaling, breathing, and reminder app designed to bring small sparks
+            of calm, reflection, and steadiness into everyday life.
           </p>
 
           <div class="hero-actions">
@@ -429,52 +439,53 @@
       <div class="container">
         <h2 class="section-title">What Elpira offers</h2>
         <p class="section-copy">
-          Built for simple daily use, Elpira helps create small, supportive rituals through thoughtful content and a calm interface.
+          Built for simple daily use, Elpira helps create small, supportive rituals through thoughtful content and a
+          calm interface.
         </p>
-<div class="cards">
-  <div class="card">
-    <div class="icon" aria-hidden="true">
-      <svg viewBox="0 0 24 24">
-        <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z"></path>
-      </svg>
-    </div>
-    <h3>Daily affirmations</h3>
-    <p>Reflective, encouraging affirmations to help you reconnect with what you need today.</p>
-  </div>
+        <div class="cards">
+          <div class="card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z"></path>
+              </svg>
+            </div>
+            <h3>Daily affirmations</h3>
+            <p>Reflective, encouraging affirmations to help you reconnect with what you need today.</p>
+          </div>
 
-  <div class="card">
-    <div class="icon" aria-hidden="true">
-      <svg viewBox="0 0 24 24">
-        <path d="M4 20h4l10.5-10.5a2.1 2.1 0 0 0-3-3L5 17v3z"></path>
-        <path d="M14 7l3 3"></path>
-      </svg>
-    </div>
-    <h3>Journal moments</h3>
-    <p>A soft space to write what’s on your mind and capture the thoughts you want to keep.</p>
-  </div>
+          <div class="card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M4 20h4l10.5-10.5a2.1 2.1 0 0 0-3-3L5 17v3z"></path>
+                <path d="M14 7l3 3"></path>
+              </svg>
+            </div>
+            <h3>Journal moments</h3>
+            <p>A soft space to write what’s on your mind and capture the thoughts you want to keep.</p>
+          </div>
 
-  <div class="card">
-    <div class="icon" aria-hidden="true">
-      <svg viewBox="0 0 24 24">
-        <path d="M12 5c3.2 0 5.8 2.6 5.8 5.8S15.2 16.6 12 16.6s-5.8-2.6-5.8-5.8S8.8 5 12 5z"></path>
-        <path d="M8.5 18.5c1 .6 2.2 1 3.5 1s2.5-.4 3.5-1"></path>
-      </svg>
-    </div>
-    <h3>Breathing practice</h3>
-    <p>Simple breathing exercises to support calm, presence, and a gentler pace.</p>
-  </div>
+          <div class="card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 5c3.2 0 5.8 2.6 5.8 5.8S15.2 16.6 12 16.6s-5.8-2.6-5.8-5.8S8.8 5 12 5z"></path>
+                <path d="M8.5 18.5c1 .6 2.2 1 3.5 1s2.5-.4 3.5-1"></path>
+              </svg>
+            </div>
+            <h3>Breathing practice</h3>
+            <p>Simple breathing exercises to support calm, presence, and a gentler pace.</p>
+          </div>
 
-  <div class="card">
-    <div class="icon" aria-hidden="true">
-      <svg viewBox="0 0 24 24">
-        <path d="M6 9a6 6 0 0 1 12 0c0 6 2 7 2 7H4s2-1 2-7z"></path>
-        <path d="M10 20a2.5 2.5 0 0 0 4 0"></path>
-      </svg>
-    </div>
-    <h3>Gentle reminders</h3>
-    <p>Create light daily reminders that help bring you back to yourself throughout the day.</p>
-  </div>
-</div>
+          <div class="card">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M6 9a6 6 0 0 1 12 0c0 6 2 7 2 7H4s2-1 2-7z"></path>
+                <path d="M10 20a2.5 2.5 0 0 0 4 0"></path>
+              </svg>
+            </div>
+            <h3>Gentle reminders</h3>
+            <p>Create light daily reminders that help bring you back to yourself throughout the day.</p>
+          </div>
+        </div>
 
       </div>
     </section>
@@ -483,7 +494,8 @@
       <div class="container">
         <h2 class="section-title">Helpful links</h2>
         <p class="section-copy">
-          Need support, want to understand how privacy works, or looking for subscription information? Everything important is here.
+          Need support, want to understand how privacy works, or looking for subscription information? Everything
+          important is here.
         </p>
 
         <div class="links-grid">
@@ -525,4 +537,5 @@
     </div>
   </footer>
 </body>
+
 </html>
